@@ -1,0 +1,1 @@
+for i in *.eps; do convert -density 300 *.eps -set filename:base "%[basename]" -resize 2048x2048 "%[filename:base].png"; done
